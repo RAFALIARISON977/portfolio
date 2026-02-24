@@ -1,33 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio étudiante en développement web">
-    <meta name="keywords" content="portfolio, étudiante, développement web, HTML, CSS, JavaScript">
+    <meta name="keywords" content="portfolio, étudiante, développement web, HTML, CSS">
     <meta name="author" content="RAFALIARISON Volanirina Innocente">
     <title>Innocente RAFALIARISON | Portfolio</title>
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-    <button id="back
 <body>
-    <!-- Curseur personnalisé -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
-     -to-top" class="back-to-top" aria-label="Retour en haut">
+    <a href="#home" class="back-to-top" aria-label="Retour en haut">
         <i class="fas fa-arrow-up"></i>
-    </button>
+    </a>
 
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
@@ -41,19 +29,11 @@
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
-
-        <button class="hamburger" aria-label="Menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </button>
     </header>
 
     <main>
-
         <section id="home" class="hero">
             <div class="hero-background">
-                <div id="particles-js"></div>
                 <div class="gradient-sphere"></div>
                 <div class="floating-shapes">
                     <div class="shape shape-1"></div>
@@ -64,33 +44,32 @@
 
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="hero-greeting" data-aos="fade-down">👋 Bonjour, je suis</span>
-                    <h1 class="glitch" data-text="RAFALIARISON Volanirina Innocente">RAFALIARISON Volanirina Innocente
-                    </h1>
+                    <span class="hero-greeting">👋 Bonjour, je suis</span>
+                    <h1 class="glitch" data-text="RAFALIARISON Volanirina Innocente">RAFALIARISON Volanirina Innocente</h1>
                     <div class="hero-subtitle">
-                        <span class="typed-text"></span>
+                        <span class="typed-text">Étudiante en Développement Web</span>
                         <span class="typed-cursor">|</span>
                     </div>
                 </div>
 
-                <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+                <div class="hero-stats">
                     <div class="hero-stat-item">
-                        <span class="hero-stat-number" data-target="6">0</span>
+                        <span class="hero-stat-number">6</span>
                         <span class="hero-stat-label">Mois d'expérience</span>
                     </div>
                     <div class="hero-stat-item">
-                        <span class="hero-stat-number" data-target="5">0</span>
+                        <span class="hero-stat-number">5</span>
                         <span class="hero-stat-label">Projets réalisés</span>
                     </div>
                     <div class="hero-stat-item">
-                        <span class="hero-stat-number" data-target="3">0</span>
+                        <span class="hero-stat-number">3</span>
                         <span class="hero-stat-label">Technologies</span>
                     </div>
                 </div>
 
-                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
-                    <a href="#contact" class="btn btn-primary btn-glow">Me contacter</a>
-                    <a href="#portfolio" class="btn btn-outline btn-pulse">Voir mon travail</a>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary animate-glow">Me contacter</a>
+                    <a href="#portfolio" class="btn btn-outline animate-pulse">Voir mon travail</a>
                 </div>
 
                 <div class="scroll-indicator">
@@ -102,16 +81,15 @@
 
         <section id="about" class="section about">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">À propos de moi</h2>
+                <h2 class="section-title">À propos de moi</h2>
                 <div class="about-content">
-                    <div class="about-image-wrapper" data-aos="fade-right">
+                    <div class="about-image-wrapper">
                         <div class="about-image">
                             <img src="img/profil.jpg" alt="RAFALIARISON Volanirina Innocente" class="profile-img">
                             <div class="image-border"></div>
-                            <div class="image-particles"></div>
                         </div>
                     </div>
-                    <div class="about-text" data-aos="fade-left">
+                    <div class="about-text">
                         <div class="about-badge">Étudiante en Informatique</div>
                         <p class="lead">Qui suis-je ?</p>
                         <p>Je suis une étudiante passionnée par l'informatique et le développement web, actuellement en
@@ -158,10 +136,10 @@
 
         <section id="skills" class="section skills">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Compétences techniques</h2>
-                <p class="section-subtitle" data-aos="fade-up">Les technologies que je maîtrise et que j'apprends</p>
+                <h2 class="section-title">Compétences techniques</h2>
+                <p class="section-subtitle">Les technologies que je maîtrise et que j'apprends</p>
 
-                <div class="skills-3d-container" data-aos="fade-up">
+                <div class="skills-3d-container">
                     <div class="skill-3d-card" data-skill="html">
                         <div class="skill-3d-face front">
                             <i class="fab fa-html5"></i>
@@ -194,17 +172,17 @@
                     </div>
                 </div>
 
-                <div class="skills-cloud" data-aos="fade-up">
-                    <span class="cloud-word" style="--size: 2.5rem;">HTML5</span>
-                    <span class="cloud-word" style="--size: 2rem;">CSS3</span>
-                    <span class="cloud-word" style="--size: 1.8rem;">JavaScript</span>
-                    <span class="cloud-word" style="--size: 1.5rem;">Responsive</span>
-                    <span class="cloud-word" style="--size: 1.3rem;">UI/UX</span>
-                    <span class="cloud-word" style="--size: 2.2rem;">Git</span>
-                    <span class="cloud-word" style="--size: 1.6rem;">VS Code</span>
+                <div class="skills-cloud">
+                    <span class="cloud-word" style="--size: 2.5rem; --i: 1;">HTML5</span>
+                    <span class="cloud-word" style="--size: 2rem; --i: 2;">CSS3</span>
+                    <span class="cloud-word" style="--size: 1.8rem; --i: 3;">JavaScript</span>
+                    <span class="cloud-word" style="--size: 1.5rem; --i: 4;">Responsive</span>
+                    <span class="cloud-word" style="--size: 1.3rem; --i: 5;">UI/UX</span>
+                    <span class="cloud-word" style="--size: 2.2rem; --i: 6;">Git</span>
+                    <span class="cloud-word" style="--size: 1.6rem; --i: 7;">VS Code</span>
                 </div>
 
-                <div class="skills-progress" data-aos="fade-up">
+                <div class="skills-progress">
                     <div class="skill-progress-item">
                         <div class="skill-info">
                             <span class="skill-name">HTML5</span>
@@ -234,7 +212,7 @@
                     </div>
                 </div>
 
-                <div class="other-skills" data-aos="fade-up">
+                <div class="other-skills">
                     <h3>Autres compétences</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Travail d'équipe</span>
@@ -250,18 +228,11 @@
 
         <section id="portfolio" class="section portfolio">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Mes réalisations</h2>
-                <p class="section-subtitle" data-aos="fade-up">Quelques projets que j'ai réalisés</p>
-
-                <div class="portfolio-filters" data-aos="fade-up">
-                    <button class="filter-btn active" data-filter="all">Tous</button>
-                    <button class="filter-btn" data-filter="web">Web</button>
-                    <button class="filter-btn" data-filter="design">Design</button>
-                    <button class="filter-btn" data-filter="project">Projets</button>
-                </div>
+                <h2 class="section-title">Mes réalisations</h2>
+                <p class="section-subtitle">Quelques projets que j'ai réalisés</p>
 
                 <div class="portfolio-grid">
-                    <div class="portfolio-item" data-category="web" data-aos="zoom-in-up">
+                    <div class="portfolio-item" data-category="web">
                         <div class="portfolio-card">
                             <div class="portfolio-front">
                                 <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -287,7 +258,7 @@
                         </div>
                     </div>
 
-                    <div class="portfolio-item" data-category="design" data-aos="zoom-in-up" data-aos-delay="100">
+                    <div class="portfolio-item" data-category="design">
                         <div class="portfolio-card">
                             <div class="portfolio-front">
                                 <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maquette UI">
@@ -309,7 +280,7 @@
                         </div>
                     </div>
 
-                    <div class="portfolio-item" data-category="project" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="portfolio-item" data-category="project">
                         <div class="portfolio-card">
                             <div class="portfolio-front">
                                 <img src="img/portfolio.jpg" alt="Portfolio">
@@ -337,32 +308,32 @@
 
         <section id="contact" class="section contact">
             <div class="container">
-                <h2 class="section-title" data-aos="fade-up">Contactez-moi</h2>
-                <p class="section-subtitle" data-aos="fade-up">N'hésitez pas à me contacter pour toute collaboration</p>
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">N'hésitez pas à me contacter pour toute collaboration</p>
 
                 <div class="contact-container">
-                    <div class="contact-info" data-aos="fade-right">
-                        <div class="info-card" onclick="copyToClipboard('rafaliarisoninnocente@gmail.com')">
+                    <div class="contact-info">
+                        <a href="mailto:rafaliarisoninnocente@gmail.com" class="info-card">
                             <div class="info-icon">
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div class="info-content">
                                 <h3>Email</h3>
                                 <p>rafaliarisoninnocente@gmail.com</p>
-                                <span class="copy-hint">Cliquez pour copier</span>
+                                <span class="copy-hint">Cliquez pour envoyer un email</span>
                             </div>
-                        </div>
+                        </a>
 
-                        <div class="info-card" onclick="copyToClipboard('0321450017')">
+                        <a href="https://wa.me/261321450017" class="info-card" target="_blank">
                             <div class="info-icon">
-                                <i class="fas fa-phone-alt"></i>
+                                <i class="fab fa-whatsapp"></i>
                             </div>
                             <div class="info-content">
                                 <h3>WhatsApp</h3>
                                 <p>032 14 500 17</p>
-                                <span class="copy-hint">Cliquez pour copier</span>
+                                <span class="copy-hint">Cliquez pour discuter</span>
                             </div>
-                        </div>
+                        </a>
 
                         <div class="info-card">
                             <div class="info-icon">
@@ -376,52 +347,50 @@
                         </div>
 
                         <div class="social-links">
-                            <a href="#" class="social-link" target="_blank">
+                            <a href="https://github.com/RAFALIARISON977" class="social-link" target="_blank">
                                 <i class="fab fa-github"></i>
                                 <span>GitHub</span>
                             </a>
-                            <a href="#" class="social-link" target="_blank">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="https://www.facebook.com/innocente.rv" class="social-link" target="_blank">
+                                <i class="fab fa-facebook"></i>
                                 <span>LinkedIn</span>
                             </a>
-                            <a href="#" class="social-link" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href="https://www" class="social-link" target="_blank">
+                                <i class="fab fa-telegram"></i>
                                 <span>Twitter</span>
                             </a>
                         </div>
                     </div>
 
-                    <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <form class="contact-form" action="#" method="POST">
                         <div class="form-group">
-                            <input type="text" id="name" class="form-input" required>
+                            <input type="text" id="name" name="name" class="form-input" required>
                             <label for="name" class="form-label">Votre nom</label>
                             <span class="form-border"></span>
                         </div>
 
                         <div class="form-group">
-                            <input type="email" id="email" class="form-input" required>
+                            <input type="email" id="email" name="email" class="form-input" required>
                             <label for="email" class="form-label">Votre email</label>
                             <span class="form-border"></span>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" id="subject" class="form-input" required>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
                             <label for="subject" class="form-label">Sujet</label>
                             <span class="form-border"></span>
                         </div>
 
                         <div class="form-group">
-                            <textarea id="message" class="form-input" rows="4" required></textarea>
+                            <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
                             <label for="message" class="form-label">Votre message</label>
                             <span class="form-border"></span>
                         </div>
 
-                        <button type="submit" class="btn-submit" id="submitBtn">
+                        <button type="submit" class="btn-submit">
                             <span class="btn-text">Envoyer le message</span>
                             <i class="fas fa-paper-plane"></i>
                         </button>
-
-                        <div class="form-status" id="formStatus"></div>
                     </form>
                 </div>
             </div>
@@ -431,7 +400,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; <span id="current-year"></span> - Innocente RAFALIARISON. Tous droits réservés.</p>
+                <p>&copy; 2024 - Innocente RAFALIARISON. Tous droits réservés.</p>
                 <div class="footer-heart">
                     <i class="fas fa-heart"></i>
                     <span>Fait avec passion</span>
@@ -439,13 +408,5 @@
             </div>
         </div>
     </footer>
-
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="portfolio.js"></script>
 </body>
-
 </html>
