@@ -1,8 +1,7 @@
-/* ===== VARIABLES ===== */
 :root {
-    --primary-color: #bb8d29;
-    --secondary-color: #8b6b1f;
-    --accent-color: #bb8d29;
+    --primary-color: #7cbb29;
+    --secondary-color: #7a9655;
+    --accent-color: #7cbb29;
     --background-color: #1a1a1a;
     --text-color: #ffffff;
     --white: #2d2d2d;
@@ -10,7 +9,6 @@
     --transition: all 0.3s ease;
 }
 
-/* ===== RESET ET BASE ===== */
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +34,6 @@ body {
     padding: 0 20px;
 }
 
-/* ===== ANIMATIONS CLÉS ===== */
 @keyframes gradientShift {
     0%, 100% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -137,7 +134,6 @@ body {
     60% { transform: translateY(-10px); }
 }
 
-/* ===== CLASSES D'ANIMATION ===== */
 .animate-glow {
     animation: glow 2s ease-in-out infinite;
 }
@@ -150,7 +146,6 @@ body {
     animation: bounce 2s infinite;
 }
 
-/* ===== BACK TO TOP ===== */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -178,7 +173,6 @@ body {
     opacity: 1;
 }
 
-/* ===== HEADER ===== */
 .header {
     position: fixed;
     top: 0;
@@ -245,7 +239,6 @@ body {
     width: 100%;
 }
 
-/* ===== HERO SECTION ===== */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -525,7 +518,6 @@ body {
     animation: scrollDown 2s ease-in-out infinite;
 }
 
-/* ===== SECTIONS COMMUNES ===== */
 .section {
     padding: 100px 0;
     background-color: var(--white);
@@ -569,7 +561,6 @@ body {
     opacity: 0.9;
 }
 
-/* ===== ABOUT SECTION ===== */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -718,7 +709,6 @@ body {
     margin-top: 5px;
 }
 
-/* ===== SKILLS SECTION ===== */
 .skills-3d-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -893,7 +883,6 @@ body {
     transform: translateY(-3px) scale(1.1);
 }
 
-/* ===== PORTFOLIO SECTION ===== */
 .filter-btn {
     padding: 10px 25px;
     border: 2px solid var(--primary-color);
@@ -1042,7 +1031,6 @@ body {
     transform: translateY(-2px) scale(1.05);
 }
 
-/* ===== CONTACT SECTION ===== */
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
@@ -1153,7 +1141,6 @@ body {
     transform: translateY(0);
 }
 
-/* Formulaire */
 .contact-form {
     background: var(--background-color);
     padding: 40px;
@@ -1264,7 +1251,6 @@ textarea.form-input {
     box-shadow: 0 5px 20px rgba(187, 141, 41, 0.4);
 }
 
-/* ===== FOOTER ===== */
 .footer {
     background-color: var(--secondary-color);
     color: var(--white);
@@ -1292,7 +1278,6 @@ textarea.form-input {
     animation: heartbeat 0.8s ease-in-out infinite;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -1403,8 +1388,6 @@ textarea.form-input {
         font-size: 0.85rem;
     }
 }
-
-/* ===== ANIMATIONS AVANCÉES ===== */
 @supports (animation-timeline: view()) {
     .section {
         animation: fadeIn linear both;
