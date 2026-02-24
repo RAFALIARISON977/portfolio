@@ -894,14 +894,6 @@ body {
 }
 
 /* ===== PORTFOLIO SECTION ===== */
-.portfolio-filters {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-
 .filter-btn {
     padding: 10px 25px;
     border: 2px solid var(--primary-color);
